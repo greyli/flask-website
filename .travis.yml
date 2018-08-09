@@ -8,6 +8,8 @@ python:
 
 before_install: pip install simplejson
 
+before_script: easy_install distribute
+  
 script: python setup.py test
 
 branches:
