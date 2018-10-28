@@ -181,7 +181,7 @@ projects = {
         ''', source='https://github.com/greyli/todoism'),
         Project('CatChat', 'http://catchat.helloflask.com', u'''
             <p>
-              A chat room based on WebSocket (Flask-Socket-IO), fetured 
+              A chat room based on WebSocket (Flask-SocketIO), fetured 
               with Markdown support and code syntax highlighting.
         ''', source='https://github.com/greyli/catchat'),
     ]
