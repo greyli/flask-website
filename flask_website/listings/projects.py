@@ -53,7 +53,7 @@ projects = {
               photographer featuring mainly photos of metal bands,
               festivals, fantasy conventions and cosplay.
         '''),
-        Project('Steven Harms\' Website', 'http://www.sharms.org/', u'''
+        Project('Steven Harms\' Website', None, u'''
             <p>
               Personal website of Steven Harms.
         ''', source='http://github.com/sharms/HomePage'),
@@ -83,10 +83,6 @@ projects = {
         Project('DotShare', 'http://dotshare.it/', u'''
             <p>
               Socially driven website for sharing Linux/Unix dot files.
-        '''),
-        Project('saallergy.info', 'http://saallergy.info/', u'''
-            <p>
-              San Antonio Allergy Data
         '''),
         Project(
             'sopython', 'http://sopython.com/',
@@ -190,6 +186,13 @@ projects = {
         ''', source='https://github.com/greyli/catchat'),
     ]
 
+}
+
+dead_projects = {
+        Project('saallergy.info', 'http://saallergy.info/', u'''
+            <p>
+              San Antonio Allergy Data
+        '''),
 }
 
 # order projects by name
